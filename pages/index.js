@@ -252,7 +252,7 @@ export default function Home() {
                   className="input-style"
                   onChange={handleInputChange}
                   name="deposit"
-                  placeholder="0.0000 ETH"
+                  placeholder="Input Amount"
                   value={inputValue.deposit}
                 />
                 <button className="btn-purple" onClick={deposityMoneyHandler}>
@@ -267,7 +267,7 @@ export default function Home() {
                   className="input-style"
                   onChange={handleInputChange}
                   name="withdraw"
-                  placeholder="0.0000 ETH"
+                  placeholder="Input Amount"
                   value={inputValue.withdraw}
                 />
                 <button className="btn-purple" onClick={withDrawMoneyHandler}>
