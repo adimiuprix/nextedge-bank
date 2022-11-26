@@ -1,12 +1,6 @@
 export const ContractABI = [
   {
-    inputs: [
-      {
-        internalType: "string",
-        name: "_name",
-        type: "string",
-      },
-    ],
+    inputs: [{ internalType: "string", name: "_name", type: "string" }],
     stateMutability: "nonpayable",
     type: "constructor",
   },
@@ -32,45 +26,21 @@ export const ContractABI = [
   {
     inputs: [],
     name: "bankName",
-    outputs: [
-      {
-        internalType: "string",
-        name: "",
-        type: "string",
-      },
-    ],
+    outputs: [{ internalType: "string", name: "", type: "string" }],
     stateMutability: "view",
     type: "function",
   },
   {
     inputs: [],
     name: "bankOwner",
-    outputs: [
-      {
-        internalType: "address",
-        name: "",
-        type: "address",
-      },
-    ],
+    outputs: [{ internalType: "address", name: "", type: "address" }],
     stateMutability: "view",
     type: "function",
   },
   {
-    inputs: [
-      {
-        internalType: "address",
-        name: "",
-        type: "address",
-      },
-    ],
+    inputs: [{ internalType: "address", name: "", type: "address" }],
     name: "customerToBalance",
-    outputs: [
-      {
-        internalType: "uint256",
-        name: "",
-        type: "uint256",
-      },
-    ],
+    outputs: [{ internalType: "uint256", name: "", type: "uint256" }],
     stateMutability: "view",
     type: "function",
   },
@@ -84,37 +54,19 @@ export const ContractABI = [
   {
     inputs: [],
     name: "getBankBalance",
-    outputs: [
-      {
-        internalType: "uint256",
-        name: "",
-        type: "uint256",
-      },
-    ],
+    outputs: [{ internalType: "uint256", name: "", type: "uint256" }],
     stateMutability: "view",
     type: "function",
   },
   {
     inputs: [],
     name: "getMyBalance",
-    outputs: [
-      {
-        internalType: "uint256",
-        name: "",
-        type: "uint256",
-      },
-    ],
+    outputs: [{ internalType: "uint256", name: "", type: "uint256" }],
     stateMutability: "view",
     type: "function",
   },
   {
-    inputs: [
-      {
-        internalType: "string",
-        name: "_name",
-        type: "string",
-      },
-    ],
+    inputs: [{ internalType: "string", name: "_name", type: "string" }],
     name: "setBankName",
     outputs: [],
     stateMutability: "nonpayable",
@@ -122,16 +74,8 @@ export const ContractABI = [
   },
   {
     inputs: [
-      {
-        internalType: "address payable",
-        name: "_to",
-        type: "address",
-      },
-      {
-        internalType: "uint256",
-        name: "_total",
-        type: "uint256",
-      },
+      { internalType: "address payable", name: "_to", type: "address" },
+      { internalType: "uint256", name: "_total", type: "uint256" },
     ],
     name: "withdrawMoney",
     outputs: [],
